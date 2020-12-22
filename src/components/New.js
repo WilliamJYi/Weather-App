@@ -56,7 +56,7 @@ function New(){
 
     return(
         <div>
-            <header>Weather Forecast</header>
+            <header>Weather App</header>
             <form onSubmit={onSubmit}>
                     <input 
                         type="text"
