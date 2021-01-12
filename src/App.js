@@ -1,9 +1,9 @@
 import React from "react"
-import New from "./components/New"
+import Main from "./components/Main"
 
 function App() {
   return (
-    <div><New /></div>
+    <div><Main /></div>
   );
 }
 
