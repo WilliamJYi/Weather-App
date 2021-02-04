@@ -27,12 +27,12 @@ const Main = () => {
         getWeather()
     }
 
-    const getTempC = (temp) =>{
+    const getTempC = temp =>{
        const celcius = Math.floor(temp - 273.15)
        return celcius
     }
 
-    const firstUpper = (string) =>{
+    const firstUpper = string =>{
         return string.charAt(0).toUpperCase() + string.slice(1)
     }
 
@@ -58,7 +58,7 @@ const Main = () => {
     }
 
     return(
-        <div>
+        <div className="app">
             <header>Weather App</header>
             <form onSubmit={onSubmit}>
                     <input 
